@@ -1,6 +1,6 @@
 {
     "schema_version": 1,
-    "package_version": "v0.3.4",
+    "package_version": "v0.3.5",
     "layers": [
         "general",
         "framework/laravel",
@@ -16,9 +16,9 @@
         },
         "docs/project_guidelines/architecture.md": {
             "block": "architecture",
-            "sha256": "4efe0140900b9cc82bb33c28cbc5701df37291bd89530b463bf7a7a5bf84fe17",
+            "sha256": "78bba9cd092facbc1f25e3ebeb0986bb656bb001b3157e6a947aa972a6e535ff",
             "sources": {
-                "framework/laravel/architecture.md": "842d84a9de08c9848df7389025a9e9a605631eac3f41e24d456c2790ea13a29a"
+                "framework/laravel/architecture.md": "1b2acb25c35bad71e115519d2906d6c53f2581acfa15ded2699dfe8439f6f2d3"
             }
         },
         "docs/project_guidelines/code-review.md": {
