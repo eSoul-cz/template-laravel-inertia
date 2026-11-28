@@ -20,10 +20,14 @@ use Illuminate\Notifications\Notifiable;
 #[Fillable(['name', 'email', 'password'])]
 #[Hidden(['password', 'remember_token'])]
 #[UseFactory(UserFactory::class)]
-class User extends Authenticatable
+class User extends Authenticatable implements
+    // @esoul-slot user-interfaces
+    \Illuminate\Contracts\Auth\Authenticatable
 {
     /** @use HasFactory<UserFactory> */
     use HasFactory, Notifiable;
+
+    // @esoul-slot user-traits
 
     /**
      * Get the attributes that should be cast.
